@@ -34,3 +34,4 @@ Route::get('/categories/{category:slug}', function (Category $category) {
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact']);
 });
+
